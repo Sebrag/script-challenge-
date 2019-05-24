@@ -8,9 +8,9 @@ Programa feito em shell para automatização de Backup HTTPD em distribuições 
 
 # Funcionamento
 
-  - Apenas baixe e execute, ele deverá estar em /etc/backup/script.sh 
+  - Apenas baixe e execute, os backups estarão localizados em /etc/backup
   - o programa checará se o sistema operacional é RedHat, se o usuario possui permissões administrativas 
-  - Também checará e se a pasta /etc/httpd é existente, e se a pasta /etc/backup é existente, caso não seja, ele criará a pasta
+  - Também checará e se a pasta /etc/httpd é existente
   - Os logs gerados pelo programa estarão localizados em /var/log/backup.logs
   - Todos os arquivos backups são nomeados como: bkup-"data".tar.gz
 
