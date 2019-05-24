@@ -14,6 +14,8 @@ fi
 test -d /etc/httpd/
 if [ $? != "0" ]; then
 	echo "ERRO: Diretório HTTPD não encontrado"
+	sleep 1
+	exit
 fi
 
 #Validação de usuario
