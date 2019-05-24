@@ -15,7 +15,7 @@ Programa feito em shell para automatização de Backup HTTPD em distribuições 
   - Todos os arquivos backups são nomeados como: bkup-"data".tar.gz
 
 # Exemplo do log
-- cat /var/log/backup.log
+ cat /var/log/backup.log
 - 24-05-19-10h38min - Backup executado com sucesso
 - 24-05-19-10h40min - Backup executado com sucesso
 - 24-05-19-10h44min - Falha na execução
