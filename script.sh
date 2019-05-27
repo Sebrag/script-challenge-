@@ -19,7 +19,7 @@ if [ $? != "0" ]; then
 fi
 
 #Validação de usuario
-if [ "$(id -u -r)" !=0 ]; then
+if [ "$(id -u -r)" != "0" ]; then
 	echo "ERRO: Executar com permissão administrativa"
 	sleep 1
 	exit
