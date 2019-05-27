@@ -34,7 +34,7 @@ tar -czvf "/etc/backup/bkup-$DATE.tar.gz" /etc/httpd
 
 #Log
 if [ $? == "0" ]; then
-	echo "$DATE - Backup executado com sucesso" >> /var/log/backup.log
+	echo "$DATE - Backup realizado com sucesso" >> /var/log/backup.log
 	else
 	echo "$DATE - Falha na execução" >> /var/log/backup.log
 fi
